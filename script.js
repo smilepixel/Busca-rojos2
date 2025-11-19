@@ -102,11 +102,6 @@ let castigo = (0)
 let M3 = (0)
 let M2 = (0)
 let M1 = (0)
-let N1 = (1)
-let N2 = (2)
-let N3 = (3)
-let N4 = (4)
-let N5 = (5)
 
 let XV = (0)
 let S_C = (false)
@@ -146,7 +141,6 @@ let AL25 = (0)
 
 let timp = (0)
 let tiempo = (timp)
-let fin = (0)
 
 let confirma = (0)
 let X_V = (0)
@@ -203,8 +197,6 @@ let BPV23 = (0)
 let BPV24 = (0)
 let BPV25 = (0)
 
-let error = (0)
-
 let num_1 = ("")
 let num_2 = ("")
 let num_3 = ("")
@@ -253,7 +245,6 @@ let A5 = (0)
 
 let CC1 = (0)
 let instrunum = (0)
-let XD = ("XD")
 range_D.value = 2
 
 console.log( "valor" + range_D.value)
@@ -1872,7 +1863,6 @@ U.forEach(function(INSTRU){
 function finalizar2 (){
 tiempo = (0)
 puntuacion = (0)
-fin = (1)
 tiempo = (0)
 tiempo.innerHTML=tiempo
 lvl_P = (0)
