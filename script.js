@@ -53,10 +53,9 @@ let U = document.querySelectorAll(".U")
 let B_E = document.querySelectorAll(".B_E")
 function tiempo1 (){let tiempo1 = document.querySelector("#tiempo1").innerHTML=tiempo;}
 let selector = document.querySelector("#selector")
+let selector2 = document.querySelector("#selector2")
 let B_F = document.querySelector("#B_F")
-let selecionadordetema = document.querySelector("#selecionadordetema")
 let S = document.querySelectorAll(".S")
-
 let musicona = document.querySelector("#musicona")
 let C_musicona = document.querySelector("#C_musicona")
 let dificultad = document.querySelector("#dificultad")
@@ -69,7 +68,7 @@ let I_X = document.querySelectorAll(".I_X")
 let X_F = document.querySelector("#X_F")
 let X_F_2 = document.querySelector("#X_F_2")
 let I_C = document.querySelectorAll(".I_C")
-
+let I_C2 = document.querySelectorAll(".I_C2")
 let H3G1 = document.querySelector("#H3G1")
 let H3G2 = document.querySelector("#H3G2")
 let H_cabe = document.querySelectorAll(".H_cabe")
@@ -2536,9 +2535,535 @@ if (selector.value == "24"){
         color3 = ("purple")
         color2 = ("white")
     }
-    seleco();
 }
+
+
+
 codicecolor_2();
+
+function codicecolor_2_2(){
+    selector2.addEventListener("change", function () {
+if (selector2.value == "1"){
+        S_C = (true)
+        color1 = ("white")
+        color2 = ("black")
+        color3 = ("black")
+        modeses_F();
+        numero_C = (1)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color2
+                        })
+
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+
+    selector2.addEventListener("change", function () {
+if (selector2.value == "2"){
+            S_C = (true)
+        color1 = ("black")
+        color2 = ("white")
+        color3 = ("white")
+        modeses_F();
+        numero_C = (2)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color2
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+
+                selector2.addEventListener("change", function () {
+if (selector2.value == "3"){
+            S_C = (true)
+
+        color1 = ("white")
+        color2 = ("black")
+        color3 = ("red")
+        modeses_F();
+        numero_C = (3)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+
+                selector2.addEventListener("change", function () {
+if (selector2.value == "4"){
+            S_C = (true)
+        color1 = ("purple")
+        color2 = ("white")
+        color3 = ("hotpink")
+        modeses_F();
+        numero_C = (4)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+                selector2.addEventListener("change", function () {
+if (selector2.value == "5"){
+            S_C = (true)
+        color1 = ("rgb(0, 106, 228)")
+        color2 = ("rgb(141, 231, 253)")
+        color3 = ("rgb(3, 163, 255)")
+        modeses_F();
+        numero_C = (5)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+
+                selector2.addEventListener("change", function () {
+if (selector2.value == "6"){
+            S_C = (true)
+        color1 = ("red")
+        color2 = ("yellowgreen")
+        color3 = ("green")
+        modeses_F();
+        numero_C = (6)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+                selector2.addEventListener("change", function () {
+if (selector2.value == "7"){
+            S_C = (true)
+        color1 = ("orange")
+        color2 = ("brown")
+        color3 = ("black")
+        modeses_F();
+        numero_C = (7)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+                selector2.addEventListener("change", function () {
+if (selector2.value == "8"){
+            S_C = (true)
+        color1 = ("darkcyan")
+        color2 = ("rgb(252, 204, 186)")
+        color3 = ("coral")
+        modeses_F();
+        numero_C = (8)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+                selector2.addEventListener("change", function () {
+if (selector2.value == "9"){
+            S_C = (true)
+        color1 = ("rgba(109, 201, 255, 1)")
+        color2 = ("rgba(210, 246, 255, 1)")
+        color3 = ("rgb(0, 106, 228)")
+        modeses_F();
+        numero_C = (9)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+
+                selector2.addEventListener("change", function () {
+if (selector2.value == "10"){
+    S_C = (true)
+        color1 = ("white")
+        color2 = ("rgb(87, 23, 23)")
+        color3 = ("rgb(214, 0, 0)")
+        modeses_F();
+        numero_C = (10)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+                selector2.addEventListener("change", function () {
+if (selector2.value == "11"){
+    S_C = (true)
+        color1 = ("rgb(105, 255, 235)")
+        color2 = ("rgb(199, 184, 255)")
+        color3 = ("rgb(138, 106, 255)")
+        modeses_F();
+        numero_C = (11)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+                selector2.addEventListener("change", function () {
+if (selector2.value == "12"){
+    S_C = (true)
+        color1 = ("rgb(72, 255, 0)")
+        color2 = ("rgb(60, 97, 65)")
+        color3 = ("rgb(0, 104, 14)")
+        modeses_F();
+        numero_C = (12)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+
+                selector2.addEventListener("change", function () {
+if (selector2.value == "13"){
+            S_C = (true)
+        color1 = ("rgba(88, 0, 129, 1)")
+        color2 = ("rgba(52, 0, 76, 1)")
+        color3 = ("rgba(195, 0, 255, 1)")
+        modeses_F();
+        numero_C = (13)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+
+
+                selector2.addEventListener("change", function () {
+if (selector2.value == "14"){
+            S_C = (true)
+        color1 = ("rgb(97, 0, 0)")
+        color2 = ("rgb(248, 180, 180)")
+        color3 = ("rgb(255, 0, 0)")
+        modeses_F();
+        numero_C = (14)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+
+                selector2.addEventListener("change", function () {
+if (selector2.value == "15"){
+            S_C = (true)
+        color1 = ("rgb(255, 189, 9)")
+        color2 = ("rgb(255, 230, 184)")
+        color3 = ("rgb(255, 251, 0)")
+        modeses_F();
+        numero_C = (15)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+                selector2.addEventListener("change", function () {
+if (selector2.value == "16"){
+            S_C = (true)
+        color1 = ("rgb(211, 6, 6)")
+        color2 = ("rgb(58, 82, 102)")
+        color3 = ("rgb(0, 57, 104)")
+        modeses_F();
+        numero_C = (16)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+                selector2.addEventListener("change", function () {
+if (selector2.value == "17"){
+            S_C = (true)
+        color1 = ("rgb(170, 250, 253)")
+        color2 = ("rgb(25, 73, 75)")
+        color3 = ("rgb(24, 219, 106)")
+        modeses_F();
+        numero_C = (17)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+                selector2.addEventListener("change", function () {
+if (selector2.value == "18"){
+    S_C = (true)
+        color1 = ("rgb(255, 0, 179)")
+        color2 = ("rgb(137, 255, 220)")
+        color3 = ("rgb(0, 255, 179)")
+        modeses_F();
+        numero_C = (18)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+                            selector2.addEventListener("change", function () {
+if (selector2.value == "19"){
+    S_C = (true)
+        color1 = ("rgb(255, 0, 0)")
+        color2 = ("rgba(167, 0, 0, 1)")
+        color3 = ("rgb(255, 145, 0)")
+        modeses_F();
+        numero_C = (19)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+                            selector2.addEventListener("change", function () {
+if (selector2.value == "20"){
+    S_C = (true)
+        color1 = ("rgb(253, 170, 232)")
+        color2 = ("rgba(0, 0, 0, 1)")
+        color3 = ("rgb(255, 255, 255)")
+        modeses_F();
+        numero_C = (20)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+                            selector2.addEventListener("change", function () {
+if (selector2.value == "21"){
+    S_C = (true)
+        color1 = ("rgba(19, 79, 60, 1)")
+        color2 = ("rgba(39, 151, 129, 1)")
+        color3 = ("rgb(255, 242, 0)")
+        modeses_F();
+        numero_C = (21)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+                                        selector2.addEventListener("change", function () {
+if (selector2.value == "22"){
+    S_C = (true)
+        color1 = ("rgb(128, 81, 0)")
+        color2 = ("rgba(44, 44, 44, 1)")
+        color3 = ("rgba(169, 169, 169, 1)")
+        modeses_F();
+        numero_C = (22)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+                            selector2.addEventListener("change", function () {
+if (selector2.value == "23"){
+    S_C = (true)
+        color1 = ("rgb(255, 205, 147)")
+        color2 = ("rgba(0, 0, 0, 1)")
+        color3 = ("rgb(255, 162, 0)")
+        modeses_F();
+        numero_C = (23)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+                            selector2.addEventListener("change", function () {
+if (selector2.value == "24"){
+    S_C = (true)
+        color1 = ("rgb(130, 68, 7)")
+        color2 = ("rgba(39, 151, 129, 1)")
+        color3 = ("rgb(255, 240, 166)")
+        modeses_F();
+        numero_C = (24)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+instru_X_F()
+            })
+
+    if(numero_C == 0){
+        color1 = ("violet")
+        color3 = ("purple")
+        color2 = ("white")
+    }
+}
+codicecolor_2_2();
 
 function KLMX(){
             KLM.forEach(function(AFF){
@@ -2551,11 +3076,6 @@ function KLMX(){
             })
 }
 
-function seleco(){
-    selecionadordetema.style.margin = "0%";
-    selecionadordetema.style.backgroundColor = color3
-    selecionadordetema.style.color = color1
-}
 
 function I_CF(){
         I_C.forEach(function(I_C){
@@ -2568,7 +3088,6 @@ function I_CF(){
 U_M.forEach(function(INSTRUa){
     INSTRUa.style.display = "none"
     INSTRUa.setAttribute("disabled",'true')
-    seleco();
 })
 
 function instru_X_F(){
@@ -2627,6 +3146,7 @@ U.forEach(function(INSTRU){
     B_Bmodos.style.justifyContent = "center"
     B_Bmodos.style.padding = "30% 30%"
     B_Bmodos.style.marginTop = "10%"
+    B_Bmodos.style.marginRight = "20%"
     B_Bmodos.style.backgroundColor = color3
     B_Bmodos.style.color = color1
     B_Bmodos.style.fontSize = "350%"
@@ -2658,9 +3178,15 @@ U.forEach(function(INSTRU){
     B_INSTRU.style.padding = "10% 10%"
     B_INSTRU.style.backgroundColor = color3
     B_INSTRU.style.color = color1
-    B_INSTRU.style.fontSize = "150%"
+    B_INSTRU.style.fontSize = "250%"
     B_INSTRU.removeAttribute("disabled")
 
+
+selector2.style.display = "flex"
+selector2.style.marginRight = "5%"
+    selector2.style.backgroundColor = color3
+    selector2.style.color = color1
+    selector2.removeAttribute("disabled")
 })
 }
 
@@ -2875,6 +3401,7 @@ B_INSTRU.addEventListener("click" ,()=>{
         I_X_F.setAttribute("disabled",'true')
             })
 
+            selector2.style.display = "none"
 })
 
 function X_X_TXT(){
@@ -2913,6 +3440,7 @@ X_F.addEventListener("click" ,()=>{
         I_X_F.setAttribute("disabled",'true')
             })
 
+selector2.style.display = "none"
 
         I_C.forEach(function(I_C){
     I_C.style.border = "transparent"
@@ -3274,6 +3802,7 @@ color_sub();
     X_F.style.display = "none"
 X_F.setAttribute("disabled",'true')
 I_CF();
+selector2.style.display = "none"
 })
 
 B_V2.addEventListener("click" ,()=>{
@@ -3352,6 +3881,7 @@ KLMX();
     X_F.style.display = "none"
 X_F.setAttribute("disabled",'true')
 I_CF();
+selector2.style.display = "none"
 })
 
 B_X.addEventListener("click" ,()=>{

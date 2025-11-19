@@ -186,12 +186,7 @@ margin-top: -10%;
     font-size: 200px;
 }
 
-#selec{
-display: flex;
-flex-direction: column;
-align-content:center;
-justify-content:center;
-}
+
 
 
 #numeros{
@@ -206,18 +201,15 @@ height: 100%;
 }
 
 #selector{
-width: 100%;
-padding: 8% 6%;
-    font-size: 100%;
+padding: 6% 4%;
+    font-size: 80%;
+        margin-left: -10% !important; 
 }
 
-#selecionadordetema{
-width: 100%;
-padding: 8% 0%;
-    font-size: 100%;
-    text-align: center;
-    text-align: justify;
-
+#selector2{
+padding: 6% 4%;
+    font-size: 250%;
+        margin-left: -10% !important; 
 }
 
 .B_E{
